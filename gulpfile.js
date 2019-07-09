@@ -32,7 +32,7 @@ const css = function(cb){
           outputStyle : "expanded"//roze style kodu w pliku css - compressed docelowy
       }).on('error', ourError))
       .pipe(autoprefixer({
-        browsers: ['last 2 versions']
+        // browsers: ['last 2 versions']
       }))
       .pipe(csso())
       .pipe(sourcemaps.write('.'))

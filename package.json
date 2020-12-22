@@ -19,7 +19,7 @@
   "dependencies": {
     "ansi-colors": "^3.2.4",
     "gulp-csso": "^3.0.1",
-    "node-notifier": "^5.4.0"
+    "node-notifier": "^8.0.1"
   },
   "browserslist": [
     "last 1 version",
